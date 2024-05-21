@@ -1,0 +1,63 @@
+{
+  "name": "@idux/theme",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue 3.x",
+    "theme",
+    "design tokens",
+    "dynamic theme"
+  ],
+  "homepage": "https://github.com/IDuxFE/theme#readme",
+  "bugs": {
+    "url": "https://github.com/IDuxFE/theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IDuxFE/theme"
+  },
+  "license": "MIT",
+  "author": "IDuxFE<idux.feteam@gmail.com>",
+  "type": "module",
+  "module": "./dist/index.js",
+  "main": "./dist/index.umd.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@idux/archive": "^0.5.0",
+    "@idux/archive-app": "^0.5.0",
+    "@idux/archive-loader-vue": "^0.5.0",
+    "@idux/archive-utils": "^0.5.0",
+    "@types/node": "^20.12.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.4.0",
+    "@vueuse/core": "^10.9.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-vue": "^9.26.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vue": "^3.4.27"
+  },
+  "dependencies": {
+    "@ctrl/tinycolor": "^4.1.0",
+    "@emotion/hash": "^0.9.1",
+    "@types/lodash-es": "^4.17.12",
+    "lodash-es": "^4.17.21",
+    "vue-demi": "^0.14.7"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.7.0",
+    "vue": "^2.6.0 || ^3.2.5"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  }
+}
